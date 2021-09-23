@@ -40,7 +40,8 @@
     cursor: pointer;
 }
 #navbar ul li a:hover{
-    background-color: cyan;
+    background-color: rgb(253, 250, 72);
+    text-shadow: 2px 11px red;
 }
 #navbar::before{
     content: "";
@@ -113,6 +114,7 @@
     background-color: rgb(239 234 234);
     margin: 5px 7px;
     padding:10px 13px;
+    box-shadow: 5px 5px 5px grey;
 }
 .box img{
     width: 100px;
